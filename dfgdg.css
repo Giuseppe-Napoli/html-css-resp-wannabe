@@ -1,0 +1,38 @@
+@media (max-width:420px){
+ 
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #lezioni .row,
+  #why .row{
+    background-color: #F2F2CD;
+    margin-top: 0;
+    padding-top: 10px;
+    font-size: 120%;
+  }
+  
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    margin: auto;
+    float: none;
+}
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    margin: auto;
+  }
+  #steps .row {
+    background-color: #f9f9f9;
+    margin-top: 0;
+    padding-top: 10px;
+    font-size: 120%;
+
+  }
+
+
+}
